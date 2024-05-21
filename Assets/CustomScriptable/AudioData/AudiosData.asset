@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 144a6baa996c117479208174614f9db0, type: 3}
+  m_Name: AudiosData
+  m_EditorClassIdentifier: 
+  MusicVolume:
+    Test: 0
+  MusicOn:
+    Test: 0
+  SFXVolume:
+    Test: 0
+  SFXOn:
+    Test: 0
+  _audioClipsData:
+  - Name: Button_Down
+    AudioClip: {fileID: 8300000, guid: 6774e2575592d8b459a149bdacad7217, type: 3}
+  - Name: Button_Up
+    AudioClip: {fileID: 8300000, guid: b905dc51b1d0b134bb6c1fdf5699a6d9, type: 3}
+  - Name: Button_Open
+    AudioClip: {fileID: 8300000, guid: 254ead20d93a63540aed96f7b4b43f11, type: 3}
+  - Name: Coin_Receive
+    AudioClip: {fileID: 8300000, guid: 476e2ba5612b7b94b984c20305b99abb, type: 3}
+  - Name: Coin_Lost
+    AudioClip: {fileID: 8300000, guid: 411f77d17be318f4196e30a5366a5201, type: 3}
+  - Name: Whoosh
+    AudioClip: {fileID: 8300000, guid: 4762d8c4facad2e4db15b4646fca31a1, type: 3}
+  - Name: Complete
+    AudioClip: {fileID: 8300000, guid: 988bf0e1728c3bb4cbda8f3b4c07ad4c, type: 3}

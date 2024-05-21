@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 280fc054378fd4b41976a9febf1452e0, type: 3}
+  m_Name: CH_Good
+  m_EditorClassIdentifier: 
+  Name: Good
+  Image: {fileID: 21300000, guid: e344976f807af7341a2cc822fe1d1493, type: 3}
+  Material: {fileID: 2100000, guid: 99a7ab7b92c87eb43badcd90d741a5e1, type: 2}
+  resource: {fileID: 11400000, guid: 3098febd05d1eb44ea0d2f7fa9e791e6, type: 2}
+  RewardAmount: 100

@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2468490989546653365
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 756761873210609418}
+  - component: {fileID: 2635146074486676141}
+  m_Layer: 0
+  m_Name: PF_MainMenuManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &756761873210609418
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2468490989546653365}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2635146074486676141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2468490989546653365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4490cb4d15b437469ad0791b168cc03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _changeFocusSound: Whoosh
+  _switchFocus: {fileID: 11400000, guid: f13ad2e77ff39fe4096c4e97321a4c11, type: 2}
+  _cameraOffset: {x: -25, y: 40, z: -55}
+  _focusDuration: 0.2
+  _punchIntensity: 5
+  _punchDirection: {x: 0, y: 1, z: 0}
+  _sceneController: {fileID: 0}
+  _levelsDataScriptable: {fileID: 11400000, guid: 7b7a4e3c3ec1af64492b3935adbf8774,
+    type: 2}
+  _sceneChangeScriptable: {fileID: 11400000, guid: 1cfc54b2e746f7e48a9f04037dd31bc9,
+    type: 2}
+  _purchaseButton: {fileID: 11400000, guid: 438ed0f9fb78c4345b7c7c56068801e0, type: 2}
+  _isometricModelsOrigin: {fileID: 0}
+  _distanceBetweenModels: {x: 50, y: 0, z: 0}
+  _isometricLevels:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
